@@ -1,0 +1,78 @@
+/*common*/
+.wrap { position: relative; }
+.wrap h2 { width: 100%; height: 50px; line-height: 50px; text-align: center; font-size: 16px; color: #fff; background: #464646; }
+.inr { padding: 0 1em; }
+.tip_wrap { margin-bottom: 10px; padding: 6px 0; border-radius: 5px; background: #f4f4f4; }
+p.tip { margin-top: 4px; padding-left: 30px; font-size: 12px; background: url(../img/ico_tip.png) 6px center no-repeat; background-size: 20px 8px; }
+p.tip:first-child { margin-top: 0; }
+input[type="text"], select { height: 38px; padding: 6px 8px 5px; font-size: 13px; color: #464646; border-radius: 5px; border: 1px solid #d9d9d9; }
+textarea { padding: 6px 8px 5px; font-size: 13px; color: #464646; border: 1px solid #d9d9d9; }
+input[type="file"] { display: none; }
+span#btn-upload { display: block; width: 100%; height: 38px; font-size: 13px; color: #fff; text-align: center; line-height: 38px; border-radius: 5px; background: green;}
+
+/*skin_wrap*/
+.skin_wrap .slide { padding-top: 20px; }
+.skin_wrap .slide .item { text-align: center; }
+.skin_wrap .slide .item:focus { outline: none; }
+.skin_wrap .slide .item img { margin: 0 auto; }
+
+/*main_info*/
+#file { width:0; height:0; }  
+.main_info { margin-bottom: 30px; padding-top: 20px; }
+.main_info input[type="text"] { width: 100%; }
+.upload_main_gallery { padding: 10px 0; }
+
+.wed_info { margin-bottom: 30px; padding-top: 20px; }
+.wed_info h3 { height: 36px; font-size: 14px; color: #fff; text-align: center; line-height: 36px; border-radius: 5px; background: #bbb; }
+.wed_inr_info { padding-bottom: 20px; }
+.wed_inr_info p { margin-top: 10px; }
+.wed_inr_info p:first-child { margin: 0; }
+.wed_inr_info p.date { font-size: 0; }
+.wed_inr_info p.date input { width: 44%; }
+.wed_inr_info p.date select { width: 26%; margin-left: 2%; }
+.wed_inr_info p.address input { width: 100%; }
+.wed_inr_info p.hall { font-size: 0; }
+.wed_inr_info p.hall input { width: 26%; margin-left: 2%; }
+.wed_inr_info p.greeting span, .wed_inr_info p.thanks span { float:left; }
+.wed_inr_info p.greeting span.btn, .wed_inr_info p.thanks span.btn { background: #8292A2; overflow: hidden; border-top-left-radius: 5px; border-bottom-left-radius: 5px; }
+.wed_inr_info p.greeting span.txt, .wed_inr_info p.thanks span.txt { width: calc(100% - 54px); }
+.wed_inr_info p.greeting span textarea, .wed_inr_info p.thanks span textarea { width: 100%; height: 54px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; }
+.wed_groom_info, .wed_bride_info { padding-bottom: 20px; }
+.wed_groom_info p, .wed_bride_info p { margin-top: 10px; }
+.wed_groom_info p:first-child, .wed_bride_info p:first-child { margin: 0; }
+.wed_groom_info p.groom { font-size: 0; }
+.wed_groom_info p.groom input { width: 32%; margin-left: 2%; text-align: center; }
+.wed_groom_info p.groom input:first-child { margin: 0; }
+.wed_groom_info p.groom_parent { font-size: 0; }
+.wed_groom_info p.groom_parent span { display: inline-block; width: 32%; margin-left: 2%; font-size: 0; overflow: hidden; }
+.wed_groom_info p.groom_parent span:first-child { margin: 0; }
+.wed_groom_info p.groom_parent span label { float: left; width: 35%; height: 38px; font-size: 13px; line-height: 38px; }
+.wed_groom_info p.groom_parent span label input { margin-top: 13px; margin-right: 4px; }
+.wed_groom_info p.groom_parent span input { float: left; }
+/*.wed_groom_info p.groom_parent span input[type="checkbox"] { margin-right: 8%; }*/
+.wed_groom_info p.groom_parent span input[type="text"] { width: 65%; text-align: center; }
+.wed_groom_info p.groom_parent span:last-child input[type="text"] { width: 100%; }
+
+.board { margin-bottom: 30px; padding-top: 20px; }
+.board input { width: 100%; }
+
+.gallery { margin-bottom: 30px; padding-top: 20px; }
+.upload_gallery { padding: 10px 0; }
+
+.location_wrap {}
+.location { margin-bottom: 30px; padding-top: 20px; }
+.location p.address_input { overflow: hidden; }
+.location p.address_input span { float:left; }
+.location p.address_input span:first-child { width: calc(100% - 54px); }
+.location p.address_input span:first-child input { width: 100%; border-top-right-radius: 0; border-bottom-right-radius: 0; }
+.location p.address_input span.address_search { width: 54px; height: 38px; font-size: 14px; color: #fff; border-radius: 5px; border-top-left-radius: 0; border-bottom-left-radius: 0; text-align: center; line-height: 38px; background: #bbb; }
+.location #map { margin: 20px 0; width: 100%; height: 240px; background: #bbb; }
+.location .location_service {}
+.location .location_service dt { padding: 5px 0 4px; }
+.location .location_service dd textarea { width: 100%; border-radius: 5px; }
+
+.sns { margin-bottom: 30px; padding-top: 20px; }
+.sns h4 { margin-bottom: 10px; }
+.sns textarea { width: 100%; border-radius: 5px; }
+
+#submit { width: 100%; height: 40px; font-size: 14px; color: #fff; line-height: 40px; outline: 0; border: 0; background: blue; }

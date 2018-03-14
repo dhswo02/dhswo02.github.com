@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=yes">
+	<title>Document</title>
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/slick.css">
+	<link rel="stylesheet" href="./css/slick-theme.css">
+</head>
+<body>
+<div id="wrap">
+	<div id="smart_invitation">
+		<form action="">
+			<div class="skin_wrap wrap">
+				<h2>스킨선택</h2>
+				<div class="slide">
+					<div class="item">
+						<label>
+							<img src="./img/smart01.png" alt="">
+							<input type="checkbox" checked="checked">	
+						</label>						
+					</div>
+					<div class="item">
+						<label>
+							<img src="./img/smart02.png" alt="">
+							<input type="checkbox">	
+						</label>
+					</div>
+					<div class="item">
+						<label>
+							<img src="./img/smart03.png" alt="">
+							<input type="checkbox">	
+						</label>
+					</div>
+				</div>
+			</div>	
+		</form>	
+
+		<form action="">
+			<legend></legend>
+			<fieldset>
+				<div class="main_info_wrap wrap">
+					<h2>메인정보</h2>					
+					<div class="main_info">
+						<div class="inr">
+							<div class="tip_wrap">
+								<p class="tip">메인이미지는 스킨에 따라 상단에 노출됩니다.</p>
+							</div>
+							<input type="text" placeholder="초대장 제목">
+							<div class="">
+								<div class="upload_main_gallery"></div>					
+								<input type='file' id='file' name='file' />
+								<span id='btn-upload' class="button1 white selected" onfocus="this.blur();">메인사진 올리기</span>	
+							</div>					
+						</div>				
+					</div>			
+				</div>
+
+				<div class="wed_info_wrap wrap">
+					<h2>웨딩 기본정보</h2>
+					<div class="wed_info">
+						<div class="inr">
+							<div class="wed_inr_info">
+								<h3>예식 정보</h3>
+								<p class="date">
+									<input type="text" placeholder="2018-MM-DD">
+									<select name="" id=""></select>
+									<select name="" id=""></select>
+								</p>
+								<p class="address">
+									<input type="text" placeholder="예식장 주소 입력">
+								</p>
+								<p class="hall">
+									<input style="width: 44%; margin: 0;" type="text" placeholder="예식장 명">
+									<input type="text" placeholder="예식장 홀">
+									<input type="text" placeholder="예식장 전화번호">
+								</p>
+								<p class="greeting clfix">
+									<span class="btn">
+										<img src="./img/greet_plus.png" alt="">
+									</span>
+									<span class="txt">
+										<textarea name="" id="" placeholder="인사말을 선택 or 적어주세요."></textarea>
+									</span>
+								</p>
+								<p class="thanks clfix">
+									<span class="btn">
+										<img src="./img/greet_plus.png" alt="">
+									</span>
+									<span class="txt">
+										<textarea name="" id="" placeholder="답례글을 선택 or 적어주세요."></textarea>
+									</span>
+								</p>
+							</div>
+							
+							<div class="wed_groom_info">
+								<h3>신랑 정보</h3>
+								<p class="groom">
+									<input type="text" placeholder="신랑 이름">
+									<input type="text" placeholder="신랑 영문 이름">
+									<input type="text" placeholder="신랑 연락처">
+								</p>
+								<p class="groom_parent">
+									<span>
+										<label>
+											<input type="checkbox"> 故
+										</label>
+										<input type="text" placeholder="신랑 부">
+									</span>
+									<span>
+										<label>
+											<input type="checkbox">	故
+										</label>								
+										<input type="text" placeholder="신랑 모">
+									</span>
+									<span class="relation">
+										<input type="text" placeholder="혼주 관계">
+									</span>
+								</p>
+							</div>
+
+							<div class="wed_groom_info">
+								<h3>신부 정보</h3>
+								<p class="bride groom">
+									<input type="text" placeholder='신부 이름'>
+									<input type="text" placeholder='신부 영문 이름'>
+									<input type="text" placeholder='신부 연락처'>
+								</p>
+								<p class="bride_parent groom_parent">
+									<span>
+										<label>
+											<input type="checkbox"> 故
+										</label>
+										<input type="text" placeholder='신부 부'>
+									</span>
+									<span>
+										<label>
+											<input type="checkbox">	故
+										</label>								
+										<input type="text" placeholder='신부 모'>
+									</span>
+									<span class="relation">
+										<input type="text" placeholder='혼주 관계'>
+									</span>
+								</p>
+							</div>
+						</div>	
+					</div>			
+				</div>
+
+				<div class="board_wrap wrap">
+					<h2>방명록 사용</h2>
+					<div class="board">
+						<div class="inr">
+							<div class="tip_wrap">
+								<p class="tip">관리자 비밀번호를 설정하시면 방명록에 작성된 글을 관리하실 수 있습니다.</p>
+							</div>
+							<input type="text" placeholder="관리용 비밀번호를 넣어주세요.">	
+						</div>				
+					</div>
+				</div>
+
+				<div class="gallery_wrap wrap">
+					<h2>갤러리 사용</h2>
+					<div class="gallery">
+						<div class="inr">
+							<div class="tip_wrap">
+								<p class="tip">청첩장 스킨에 첨부할 사진을 선택하여 업로드하세요.</p>
+							</div>
+							<div class="upload_gallery"></div>
+							<span id='btn-upload' class="button1 white selected" onfocus="this.blur();">메인사진 올리기</span>		
+						</div>				
+					</div>
+				</div>
+
+				<div class="location_wrap wrap">
+					<h2>위치정보 사용</h2>
+					<div class="location">
+						<div class="inr">
+							<div class="tip_wrap">
+								<p class="tip">고객님의 예식장 위치 및 교통정보를 직접 입력후 검색을 눌러주세요.</p>
+							</div>
+							<p class="address_input">
+								<span>
+									<input type="text" placeholder="위치정보를 입력해주세요.">
+								</span>
+								<span class="address_search">
+									검색
+								</span>
+							</p>
+							<div id="map"></div>	
+							<div class="location_service">
+								<dl>
+									<dt>- 교통안내 (지하철)</dt>
+									<dd>
+										<textarea name="" id="" placeholder="교통안내(지하철)"></textarea>
+									</dd>
+								</dl>
+								<dl>
+									<dt>- 교통안내 (버스)</dt>
+									<dd>
+										<textarea name="" id="" placeholder="교통안내(버스)"></textarea>
+									</dd>
+								</dl>
+								<dl>
+									<dt>기타 교통(주차) 정보</dt>
+									<dd>
+										<textarea name="" id="" placeholder="기타 교통(주차) 정보"></textarea>
+									</dd>
+								</dl>
+							</div>
+						</div>				
+					</div>
+				</div>
+
+				<div class="sns_wrap wrap">
+					<h2>SNS 공유 사용</h2>
+					<div class="sns">
+						<div class="inr">
+							<div class="tip_wrap">
+								<p class="tip">
+									SNS공유 기능은 초대장을 페이스북, 밴드, 카카오스토리에 올려서 공유할 수 있으며 카카오톡은 친구들에게 초대장을 보낼 수 있습니다.
+								</p>
+								<p class="tip">
+									카카오톡 보내기 사용 시 반드시 메인 정보 > 메인 이미지를 업로드 하셔야 이미지가 같이 발송됩니다.
+								</p>
+							</div>
+							<h4>카카오톡 보내기 사용</h4>
+							<textarea name="" id=""></textarea>
+						</div>
+					</div>
+				</div>
+			</fieldset>
+		</form>
+
+		<button id="submit">적용하기</button>
+
+	</div>
+</div>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="./js/slick/slick.js"></script>
+<script>
+	$(function() {
+		$('.slide').slick({
+			dots: false,
+			arrows: false
+		});				
+
+		if($('.slide .item').hasClass('slick-active')) {
+			// $('.slide .item input').attr('checked')			
+
+			$('.slide .item input').change(function() {
+				$this = $(this);
+				$parent = $(this).parents('.item');
+
+				$parent.siblings().find('input').removeAttr('checked');
+			})
+		}
+
+		$('#btn-upload').click(function(e){
+			e.preventDefault();             
+			$("input:file").click();               
+			var ext = $("input:file").val().split(".").pop().toLowerCase();
+			if(ext.length > 0){
+				if($.inArray(ext, ["gif","png","jpg","jpeg"]) == -1) { 
+					alert("gif,png,jpg 파일만 업로드 할수 있습니다.");
+					return false;  
+				}                  
+			}
+			$("input:file").val().toLowerCase();
+		});                  
+	});
+</script>
+
+<!-- 구글 맵 -->
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDciV3VqZYq96VZ1ULPx-SW7ce2fcVp4IQ&callback=initMap"  type="text/javascript"></script>
+<script>
+	function initMap() {
+    var uluru = {lat: 37.4703718, lng: 127.040024};
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 18,
+      center: uluru,
+      scrollwheel : false, //마우스 휠로 확대 축소 사용 여부
+      mapTypeControl : false, //맵 타입 컨트롤 사용 여부
+      disableDefaultUI : false, //기본 UI 사용 여부
+      disableDoubleClickZoom : true, //더블클릭 중심으로 확대 사용 여부
+      gestureHandling: 'cooperative'
+    });
+    
+    var infowindow = new google.maps.InfoWindow({
+      content: 'contentString'
+    });
+    var image = './img/pointer.png'; //마커 이미지 설정
+    var marker = new google.maps.Marker({
+      position: uluru,
+      map: map,
+      // title: '<?=$this->data[a4]?><?=$this->data[a5]?>',
+      icon : image //마커 이미지
+    });
+    marker.addListener('click', function() {
+      infowindow.open(map, marker);
+    })
+  };
+</script>
+</body>
+</html>
